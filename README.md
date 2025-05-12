@@ -3,7 +3,7 @@ _A esotaric programming language based on guitar notes_
 
 ## Introduction 
 All natural notes `A`, `B`, `C`, `D`, `E`, `F` and half-steps `A#`, `C#`, `D#`, `F#`, `G#` used for commands. 
-To write a program all notes must be played on a physical guitar and listened to by interpreter.
+To write a program all notes must be played on a physical guitar and listened to by the interpreter.
 Refer to this [guide](https://leadguitarlessons.com/guitar-lessons/general/learn-the-notes-on-the-guitar.htm) for guitar notes on a 6-string.
 
 ## Design Principles
@@ -75,7 +75,7 @@ AB B BBEEBEB G ED // 'e'
 AB B BBEBBEE G ED // 'l'
 AB B BBEBBEE G ED // 'l'
 AB B BBEBBBB G ED // 'o'
-AB B BEEEEE G ED // ' '
+AB B BEEEEE G ED  // ' '
 AB B BEBEBBB G ED // 'W'
 AB B BBEBBBB G ED // 'o'
 AB B BBBEEBE G ED // 'r'
