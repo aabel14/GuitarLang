@@ -6,6 +6,12 @@ All natural notes `A`, `B`, `C`, `D`, `E`, `F` and half-steps `A#`, `C#`, `D#`, 
 To write a program all notes must be played on a physical guitar and listened to by interpreter.
 Refer to this [guide](https://leadguitarlessons.com/guitar-lessons/general/learn-the-notes-on-the-guitar.htm) for guitar notes on a 6-string.
 
+## Design Principles
+- **Readability**: This esolang obsecures the readability of a program so it is harder for a human to immediately interpret. 
+- **Ease of programming**: This esolang attempts to make writting programs much more diffcult (but also fun!) as it requires the note to be played on a physical guitar.
+- **Coding as an art form**: Can write a program that does something interesting but also sounds good as a song
+- **Multi-coding**: The program can double as a song!
+
 ## Commands
 ### Numbers
 
@@ -16,7 +22,6 @@ Refer to this [guide](https://leadguitarlessons.com/guitar-lessons/general/learn
   - `B` = 1
   - `E` = 0
 - Ended with `G`
----
 
 ### I/O Commands
 
@@ -26,7 +31,6 @@ Refer to this [guide](https://leadguitarlessons.com/guitar-lessons/general/learn
 | `ED`    | Pop a number and output it as an ASCII character |
 | `EG`    | Pop a number and output it directly      |
 
----
 
 ### Stack Manipulation
 
@@ -37,10 +41,9 @@ Refer to this [guide](https://leadguitarlessons.com/guitar-lessons/general/learn
 | `AD`    | -          | Swap the top two items          |
 | `AE`    | -          | Discard the top item from stack |
 
----
 
-### Arithmetic
-computes operation on top two items on stack and replaces them with the result.
+### Arithmetic Operations
+Computes operation on top two items on stack and replaces them with the result.
 
 | Command | Operation           |
 |---------|-------------------|
@@ -50,7 +53,6 @@ computes operation on top two items on stack and replaces them with the result.
 | `F#`   | Integer Division   |
 | `G#`   | Modulo             |
 
----
 
 ### Control Flow
 
