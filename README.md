@@ -72,8 +72,7 @@ Computes operation on top two items on stack and replaces them with the result.
 ```
 AB B BEEBEEE G ED // 'H'
 AB B BBEEBEB G ED // 'e'
-AB B BBEBBEE G ED // 'l'
-AB B BBEBBEE G ED // 'l'
+AB B BBEBBEE G AC ED ED // 'll'
 AB B BBEBBBB G ED // 'o'
 AB B BEEEEE G ED  // ' '
 AB B BEBEBBB G ED // 'W'
